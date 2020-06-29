@@ -271,7 +271,7 @@ friends:
     #网站图片(可忽略不写)
     img: https://i.loli.net/2020/06/30/EF6cSw8PbTv9aHm.jpg
     #网站简介(可忽略不写)
-    description: 记录工作和学习过程中的笔记：Java、前端开发、Hexo博客、聚合支付、Linux笔记、ElasticSearch、ELK日志分析
+    #description: 记录工作和学习过程中的笔记：Java、前端开发、Hexo博客、聚合支付、Linux笔记、ElasticSearch、ELK日志分析
   GitHub:
     url: https://github.com/BrunoBucciarati927
   知乎:
