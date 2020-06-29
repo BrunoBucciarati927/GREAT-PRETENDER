@@ -15,12 +15,12 @@ subNav:
   #rss: "#"
   zhihu: ""
   qq: "img/2434387555.jpg"
-  #weixin: "img/weixin_.png"
+  weixin: "img/weixin_.png"
   weibo: "#"
   #douban: "#"
   #segmentfault: "#"
   bilibili: "#"
-  #acfun: "#"
+  acfun: "#"
   #mail: "mailto:zhousiwei0911@qq.com"
   #facebook: "#"
   #google: "#"
@@ -31,7 +31,7 @@ subNav:
 hover_effect:
   ## `global` 0: Set separately, 1: Enable global 2: Close global
   ## `global` 0: 分开设置, 1: 全局启用, 2: 全局关闭
-  global: 2
+  global: 1
   # SubNav-导航
   subNav: true
 
@@ -63,11 +63,11 @@ open_in_new:
 # 打赏type设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
 reward_type: 2
 # 打赏wording
-#reward_wording: '谢谢你请我吃糖果'
+reward_wording: '谢谢你请我吃糖~'
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
-#alipay: /img/alipay.jpg
+#alipay: https://i.loli.net/2020/06/30/KgRdfOMcP2WqpsV.jpg
 # 微信二维码图片地址
-#weixin: /img/weixin.png
+weixin: https://i.loli.net/2020/06/30/OTbFPhHIMpyNBt7.png
 
 # 目录
 # 目录设定：0-不显示目录； 1-文章对应的md文件里有toc:true属性，才有目录； 2-所有文章均显示目录
@@ -143,7 +143,7 @@ music:
   enable: true
   # 播放器尺寸类型(1：长尺寸、2：短尺寸)
   type: 2
-  id: 343230690 # 网易云分享的音乐ID(更换音乐请更改此配置项)
+  id: 567544544 # 网易云分享的音乐ID(更换音乐请更改此配置项)
   autoPlay: true  # 是否开启自动播放
   # 提示文本(关闭请设置为false)
   text: '请尽情的欣赏它吧~'
@@ -210,7 +210,7 @@ activate_power_mode:
   # 使输入模式丰富多彩
   colorful: true
   # 是否开启摇动
-  shake: false
+  shake: true
 
 # 飘雪特效
 # https://github.com/MlgmXyysd/snow.js
@@ -222,13 +222,13 @@ live2d:
   # (关闭请设置为false)
   enable: true
   # 模型名称(取值请参考：https://github.com/JoeyBling/hexo-theme-yilia-plus/wiki/live2d%E6%A8%A1%E5%9E%8B%E5%8C%85%E5%B1%95%E7%A4%BA)
-  model: hibiki
+  model: chitose
   display:
     position: right # 显示位置：left/right(default: 'right')
-    width: 145  # 模型的长度(default: 150)
-    height: 315 # 模型的高度(default: 300)
-    hOffset: 50 # 水平偏移(default: 0)
-    #vOffset: -20 # 垂直偏移(default: -20)
+    width: 255  # 模型的长度(default: 150)
+    height: 500 # 模型的高度(default: 300)
+    hOffset: 20 # 水平偏移(default: 0)
+    vOffset: -90 # 垂直偏移(default: -20)
   mobile:
     show: false # 是否在移动设备上显示(default: true)
     scale: 0.6 # 移动设备上的缩放(default: 0.5)
